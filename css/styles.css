@@ -1,0 +1,55 @@
+.yellow {
+    color:yellow;
+}
+#graycol {
+    color: gray;
+}
+.text-box h3:first-child {
+    color: pink;
+}
+.text-box div:nth-child(5) {
+    color: red;
+}
+.text-box p:nth-child(7) {
+    color: green;
+}
+.list1 {
+    color: blue;
+}
+.title1 {
+    color: gold;
+}
+.list1 li:nth-child(even) {
+    background-color: yellow
+}
+.list1 li:hover {
+    color: red;
+}
+.list2 li:nth-child(odd) {
+    color: chocolate;
+}
+.input1:focus {
+    background-color: blue;
+}
+.list3 li:nth-child(3n) {
+background-color: deeppink;
+}
+a {
+    text-decoration: none;
+}
+a:active {
+    color: springgreen;
+    text-decoration: none;
+}
+.list4 li:nth-child(-n+2) {
+    color: darkred;
+}
+.list4 li:not(.lesson) {
+    color: darkblue;
+}
+.list5 li:nth-child(n+2) {
+    color: green;
+}
+.input:disabled {
+    background-color:midnightblue;
+}
