@@ -13,26 +13,33 @@
 .text-box p:nth-child(7) {
     color: green;
 }
-.list1 {
+.mon-list {
     color: blue;
 }
-.title1 {
+.mon-title {
     color: gold;
 }
-.list1 li:nth-child(even) {
+.mon-list li:nth-child(even) {
     background-color: yellow
 }
-.list1 li:hover {
+.mon-list li:hover {
     color: red;
 }
-.list2 li:nth-child(odd) {
+.tue-title {
+    color: crimson;
+}
+.tue-list li:nth-child(odd) {
     color: chocolate;
 }
-.input1:focus {
+.tue-lesson:focus {
     background-color: blue;
+    color: greenyellow;
 }
-.list3 li:nth-child(3n) {
+.wed-list li:nth-child(3n) {
 background-color: deeppink;
+}
+.wed-title {
+    color: orangered;
 }
 a {
     text-decoration: none;
@@ -41,15 +48,21 @@ a:active {
     color: springgreen;
     text-decoration: none;
 }
-.list4 li:nth-child(-n+2) {
+.thu-list li:nth-child(-n+2) {
     color: darkred;
 }
-.list4 li:not(.lesson) {
+.thu-list li:not(.thu-lesson) {
     color: darkblue;
 }
-.list5 li:nth-child(n+2) {
+.thu-title {
+    color: steelblue;
+}
+.fri-list li:nth-child(n+2) {
     color: green;
 }
-.input:disabled {
+.fri-lesson:disabled {
     background-color:midnightblue;
+}
+.fri-title {
+    color: magenta;
 }
